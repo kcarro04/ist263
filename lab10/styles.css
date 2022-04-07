@@ -17,6 +17,7 @@ nav {margin-bottom: 30px;}
 .description {text-align: center; color: black; background-color: white;}
 .img1 {max-width: 100%;}
 .row1 {display:flex; justify-content: space-around;flex:.75;}
+.row1 img {width: 50px;}
 .other {display: flex; background-color: thistle; border-radius: 1em; padding: 20px; justify-content: space-between; flex: 0.25;}
 .total {display: flex; margin: 20px; padding:20px;}
 

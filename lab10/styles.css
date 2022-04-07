@@ -11,12 +11,18 @@ nav {margin-bottom: 30px;}
 .img1 {float: left; margin-right: 20px; margin-bottom: 20px; background-color: white; border-radius: 1em;}
 .info {display:flex; background-color:rgb(230, 227, 230); border-radius: 1em;}
 .info div {margin:20px;}
-.info2 {display:flex; background-color: rgb(230, 227, 230); border-radius: 1em;}
+.info2 {display:flex; background-color: rgb(230, 227, 230); border-radius: 1em; flex-wrap: wrap;}
 .info2 div {margin:20px;}
 .special {display:flex; justify-content: center;}
 .description {text-align: center; color: black; background-color: white;}
-img {width: 50px;}
+.img1 {max-width: 100%;}
 .row1 {display:flex; justify-content: space-around;flex:.75;}
 .other {display: flex; background-color: thistle; border-radius: 1em; padding: 20px; justify-content: space-between; flex: 0.25;}
 .total {display: flex; margin: 20px; padding:20px;}
-.row1 div {justify-content: center;}
+
+@media only screen and (max-width: 600px) {
+    nav div {display:block; padding:10px;}
+    span {display:none;}}
+
+    @media only screen and (min-width: 600px) {
+        nav div {display:inline;}}

@@ -27,4 +27,11 @@ nav {margin-bottom: 30px;}
 
     @media only screen and (min-width: 600px) {
         nav div {display:inline;}}
- 
+ h1{font-size:60px;}
+ p{font-size:25px;
+        line-height: 50px;}
+    
+        #skip {position:absolute;
+        left:-999px;}
+        #skipfocus {left:10px;
+        background-color: white; padding:5px;}

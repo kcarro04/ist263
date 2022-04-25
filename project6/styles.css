@@ -9,4 +9,5 @@ h2 {font-size: 40px;}
 p {font-size: 20px;}
 .about {padding-top: 350px;}
 .about div {display: flex; justify-content: center;}
-.aboutme { padding-left: 370px; padding-right: 370px; padding-top: 40px;}
+.aboutme {padding-left: 370px; padding-right: 370px; padding-top: 40px;}
+

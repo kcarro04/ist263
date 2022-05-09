@@ -1,13 +1,22 @@
-.navigation {display:flex; justify-content: space-between;}
+.navigation {display:flex; justify-content: space-between; color:#2E382E;}
 .right, left {display:flex;}
-.navigation div {margin:10px; color:#2F3E46}
-.front div {display:flex; justify-content: center; color: #2E382E;}
+.navigation div {margin:10px;}
+.front div {display:flex; justify-content: center; color: white;}
 .front {margin-top: 180px;}
-body {background-color: #84A98C; color:#2E382E; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.homepage {background-color: #84A98C; color:#2E382E;} 
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 h1 {font-size: 60px;}
 h2 {font-size: 40px;}
 p {font-size: 20px;}
 .about {padding-top: 350px;}
 .about div {display: flex; justify-content: center;}
 .aboutme {padding-left: 370px; padding-right: 370px; padding-top: 40px;}
+.right a {color:#2E382E; padding:10px;}
+.left a{color:#2E382E;}
+.paris {display:flex; justify-content: center; color: #2E382E;}
+.ireland {display:flex; justify-content: center; color: #2E382E;}
 
+.italy {display:flex; justify-content: center; color: #2E382E;}
+.gallery {display:flex; justify-content: center; color: #2E382E;}
+p {padding:100px;}
+.images div {background-color: white;}

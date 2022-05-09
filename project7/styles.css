@@ -1,7 +1,7 @@
 .navigation {display:flex; justify-content: space-between; color:#2E382E;}
 .right, left {display:flex;}
 .navigation div {margin:10px;}
-.front div {display:flex; justify-content: center; color: white;}
+.front div {display:flex; justify-content: center; color: #2E382E;}
 .front {margin-top: 180px;}
 .homepage {background-color: #84A98C; color:#2E382E;} 
 

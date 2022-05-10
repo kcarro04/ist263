@@ -37,7 +37,7 @@ p {padding:100px;}
 
 @media only screen and (max-width: 600px) {.left a {display: block; margin-top: 17px;}}
 
-.front, .about {
+.front, .ireland, .paris, .italy, .gallery {
     -webkit-animation: fadeInTop 2.0s both;
     -moz-animation: fadeInTop 2.0s both;
     -o-animation: fadeInTop 2.0s both;

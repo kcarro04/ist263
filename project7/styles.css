@@ -2,6 +2,7 @@
 .right, left {display:flex;}
 .navigation div {margin:10px;}
 .front div {display:flex; justify-content: center; color: #2E382E;}
+.arrow {display:flex; justify-content: center; color: #2E382E; font-size: 60px;}
 .front {margin-top: 180px;}
 .homepage {background-color: #84A98C; color:#2E382E;} 
 
@@ -19,9 +20,50 @@ p {font-size: 20px;}
 
 .italy {display:flex; justify-content: center; color: #2E382E;}
 .gallery {display:flex; justify-content: center; color: #2E382E;}
+
 p {padding:100px;}
 .gal {background-color: #84A98C;}
 .pics {display: flex; justify-content: center;}
-.images { display: flex ; justify-content: space-around; padding-top: 30px;
+.images { display: flex ; flex-wrap: wrap; justify-content: space-around; padding-top: 30px;
     }
 .images div {padding-bottom: 50px;}
+
+@media only screen and (max-width: 600px) {.front {display: block;margin-top: 50px; text-align: center;}}
+@media only screen and (max-width: 600px) {.ireland, .paris, .italy, .gallery {display: block; text-align: center;}}
+@media only screen and (max-width: 600px) {.images {display: block;}}
+@media only screen and (max-width: 600px) {.aboutme {display: block; padding-left: 15px; padding-right: 15px;}}
+@media only screen and (max-width: 600px) {p {display: block; padding-left: 15px; padding-right: 15px;}}
+@media only screen and (max-width: 600px) {.right a, .left a {display: block; font-size: 7px; }}
+
+@media only screen and (max-width: 600px) {.left a {display: block; margin-top: 17px;}}
+
+.front, .about {
+    -webkit-animation: fadeInTop 2.0s both;
+    -moz-animation: fadeInTop 2.0s both;
+    -o-animation: fadeInTop 2.0s both;
+    animation: fadeInTop 2.0s both;
+}
+@-webkit-keyframes fadeInTop {
+    0% {opacity: 0;
+    -webkit-transform: translateY(-50px);}
+    100% {opacity: 1;
+    -webkit-transform: translateY(0);}
+}
+@-moz-keyframes fadeInTop {
+    0% {opacity: 0;
+        -moz-transform: translateY(-50px);}
+        100% {opacity: 1;
+        -moz-transform: translateY(0);}
+}
+@-o-keyframes fadeInTop {
+    0% {opacity: 0;
+        -o-transform: translateY(-50px);}
+        100% {opacity: 1;
+        -o-transform: translateY(0);}
+}
+@keyframes fadeInTop {
+    0% {opacity: 0;
+        transform: translateY(-50px);}
+        100% {opacity: 1;
+        transform: translateY(0);}
+}
